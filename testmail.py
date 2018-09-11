@@ -3,7 +3,7 @@ import time
 import smtplib
 import socket
 user="coolv926@gmail.com"#write your mail id 
-kiyo="@#9693344711@#"
+kiyo="Dontusemine"
 xnome="coolv926@gmail.com"
 server=smtplib.SMTP("smtp.gmail.com","587")
 server.starttls()
