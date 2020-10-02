@@ -5,6 +5,9 @@ https://myaccount.google.com/lesssecureapps
 
 go to this and turn it on after this mail id can be connected.
 
+## If you don't want to turn off 2 factor authentication 
+    Create app password for the application and use the app generated password to login.
+
 
 Make some changes in the code, i will write the line no. and the changes
 
