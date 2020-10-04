@@ -1,6 +1,6 @@
-import os
+import os # To get the OS Details
 import time
-import smtplib
+import smtplib # For SMTP
 import socket
 user="coolv926@gmail.com"#write your mail id 
 kiyo="Dontusemine" #Your Password
